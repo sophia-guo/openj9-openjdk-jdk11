@@ -9,7 +9,7 @@ jobs:
     steps:
     - uses: sophia-guo/build-jdk-openj9@v3
       with: 
-        version: 14
+        version: 11
         usePersonalRepo: true
     - uses: actions/upload-artifact@v2-preview
       if: failure()
